@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(28, 27, 27);
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+h3 {
+    color: cornflowerblue;
+
+}
+
+h1 {
+    background-color: rgb(225, 234, 234);
+}
+
+strong {
+    color: yellow;
+}
+
+em {
+    color: rgb(157, 210, 166);
+}
+
+a {
+    color: rgb(0, 123, 255);
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+article.blog {
+    flex-basis: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* click on a link */
+a:active {
+    color: #0000FF;
+}
+
+.justify {
+    text-align: justify;
+    line-height: 50px;
+}
