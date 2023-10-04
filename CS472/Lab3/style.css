@@ -1,0 +1,18 @@
+button {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    background-color: rgb(18, 100, 115);
+    color: white;
+}
+
+.navbar>li {
+    display: inline;
+}
+
+.navbar img {
+    width: 10px;
+    height: 10px;
+}
