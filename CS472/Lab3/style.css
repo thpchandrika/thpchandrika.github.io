@@ -17,7 +17,7 @@ a {
 }
 
 button {
-    background-color: black;
+    background-color: rgb(14, 13, 13);
     color: white;
 }
 
@@ -91,7 +91,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: black color;
+    background-color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
