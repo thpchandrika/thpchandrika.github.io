@@ -1,0 +1,18 @@
+a {
+    color: white;
+}
+
+#navbarSupportedContent {
+    font-size: large;
+}
+
+.productheader h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.btn-outline-info {
+    color: rgb(7, 7, 45);
+    border-color: rgb(7, 7, 45);
+}
