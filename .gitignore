@@ -1,0 +1,16 @@
+# Node.js
+node_modules
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+
+# Environment variables
+.env
+
+# Output files
+dist
