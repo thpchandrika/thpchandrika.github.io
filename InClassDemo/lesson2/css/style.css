@@ -1,0 +1,19 @@
+/* external style */
+
+body {
+
+    /* image to place in background */
+    /* background-image: url("../img/w3c-html5-logo.png"); */
+    background-color: silver;
+    /* How bg image should be repeated */
+    /* can be repeat (default), repeat-x, repeat-y, or no-repeat */
+    /* background-repeat: repeat-x; */
+
+    /* placement of bg image within element */
+    /* value consists of two	tokens, can be top, left, right, bottom, center, a percentage, or a length value in px, pt, etc */
+    background-position: 370px 20px;
+}
+
+ul {
+    list-style: upper-alpha;
+}

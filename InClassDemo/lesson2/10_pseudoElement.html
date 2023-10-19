@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2 CSS</title>
+    <style>
+        div.red::before {
+            content: "Before";
+            background: red;
+
+        }
+
+        div.red::after {
+            content: "After";
+            background: red;
+        }
+
+        p::first-letter {
+            font-size: 2rem;
+            font-weight: bold;
+            color: green;
+        }
+
+        ul {
+            list-style: decimal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">This is a div</div>
+    <div>This is another div</div>
+    <span>This is a span</span>
+    <ul>
+        <li class="red">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <p>This is great</p>
+
+
+</body>
+
+</html>
