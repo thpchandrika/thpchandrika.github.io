@@ -45,7 +45,7 @@ class Student {
     }
 
     static filterByProgram(program) {
-        return students.filter(s => s.program.toLowerCase() === program.toLowerCase())
+        return students.filter(s => s.program.toLowerCase().includes(program.toLowerCase()))
     }
 }
 

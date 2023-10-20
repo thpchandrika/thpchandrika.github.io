@@ -6,7 +6,6 @@ let controller = {
     },
 
     getStudentById: function (req, res, next) {
-        console.log("Get By id");
         let id = parseInt(req.params.id); //params.id is treated as string
         let student = Student.getById(id);
         if (student) {
@@ -17,7 +16,6 @@ let controller = {
     },
 
     createStudent: function (req, res, next) {
-        console.log(req.body);
         let { id, name, program } = req.body;
         if (id && name && program) {
             let student = new Student(id, name, program);
@@ -30,7 +28,6 @@ let controller = {
 
     deleteStudent: function (req, res, next) {
         let id = parseInt(req.params.id);
-        console.log(id, typeof id);
         let deletedStudent = Student.removeById(id);
         if (!deletedStudent) {
             res.status(404).json({ message: "student not found" });
