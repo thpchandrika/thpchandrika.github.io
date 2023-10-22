@@ -1,0 +1,5 @@
+Please implement JS code in script.js for the below features inside studentRegistration-frontend project.:
+
+Dropdown lists show student ids. Implement corresponding features. 
+Click "Update" button to edit a student info and make updates to server side, Table, and Dropdown list.
+Click "Delete" button to remove a student from server side, Table, and Dropdown list.

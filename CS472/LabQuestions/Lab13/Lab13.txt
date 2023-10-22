@@ -1,0 +1,5 @@
+1.Create everything from scratch for studentRegistration-server that we discussed in the lecture13. 
+
+2.Inside studentRegistration-server REST applicaiton:
+  1.implement getStudents, getStudentById, createStudent, deleteStudent, updateStudent, and filterByProgram functionality in router, controller, and model.     
+  2.Use Postman to test your REST APIs
